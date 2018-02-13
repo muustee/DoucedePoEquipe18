@@ -7,7 +7,7 @@ h2{
   font-family: "Open sans";
   color: #DE8496;
 }
-/*
+
 .grid-container{
   border: solid black 2px;
 }
@@ -17,10 +17,6 @@ h2{
 }
 
 .grid-x.grid-padding-x{
-  border: solid red 1px;
-}
-
-.grid-x.grid-margin-x{
   border: solid red 1px;
   width: 100%;
 }
@@ -36,7 +32,7 @@ h2{
 .large-3{
   border: solid purple 2px;
 }
-*/
+
 nav .menu {
   border-radius: 10px;
 }
