@@ -1,3 +1,14 @@
+h1{
+  font-family: "sacramento";
+  color : #DE8496;
+}
+
+h2{
+  font-family: "Open sans";
+  color: #DE8496;
+}
+
+
 .grid-container{
   border: solid black 2px;
 }
@@ -26,3 +37,15 @@
 .large-3{
   border: solid purple 2px;
 }
+<<<<<<< HEAD
+nav ul li a  {
+  color:#de8496;
+}
+nav ul li a:hover{
+  background: #de8496;
+  color: white;
+
+}
+=======
+
+>>>>>>> 1da9ebca2b9f65fb99fa21e76cfad2c88c56e42a
