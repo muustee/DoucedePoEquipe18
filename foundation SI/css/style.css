@@ -7,8 +7,7 @@ h2{
   font-family: "Open sans";
   color: #DE8496;
 }
-
-
+/*
 .grid-container{
   border: solid black 2px;
 }
@@ -37,18 +36,54 @@ h2{
 .large-3{
   border: solid purple 2px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+*/
+nav .menu {
+  border-radius: 10px;
+}
 nav ul li a  {
   color:#de8496;
+
+}
+nav ul{
+box-shadow: 0px -3px 58px -6px rgba(222,132,150,1);
 }
 nav ul li a:hover{
   background: #de8496;
   color: white;
-
 }
-=======
+.top-bar{
+  background-color: white;
+}
+.top-bar-left ul {
+  background-color: white;
+  justify-content: space-around;
+}
+.top-bar-right ul {
+  background-color: white;
+}
+.top-bar-right input {
+  margin-right: 1px;
+}
+.top-bar-left a{
+  color: black;
+  border: solid #de8496 1px;
+  border-radius: 10px;
+  padding: 2px;
+  justify-content: space-between;
+}
 
->>>>>>> 1da9ebca2b9f65fb99fa21e76cfad2c88c56e42a
-
->>>>>>> 1da9ebca2b9f65fb99fa21e76cfad2c88c56e42a
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+  border-color: black transparent transparent;
+}
+.button {
+  background: #de8496;
+}
+.is-dropdown-submenu{
+  border: 0;
+}
+.top-bar-left ul{
+  margin-top: 30px;
+}
+.dropdown.menu.menu.verticale a{
+  list-style-type: circle;
+}
