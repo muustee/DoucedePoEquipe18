@@ -1,0 +1,27 @@
+.grid-container{
+  border: solid black 2px;
+}
+
+.large-6{
+  border: solid pink 2px;
+}
+
+.grid-x.grid-padding-x{
+  border: solid red 1px;
+}
+
+.grid-x.grid-margin-x{
+  border: solid red 1px;
+}
+
+.large-12{
+  border: solid green 1px;
+}
+
+.large-9{
+  border: solid yellow 2px;
+}
+
+.large-3{
+  border: solid purple 2px;
+}
