@@ -1,5 +1,5 @@
 h1{
-  font-family: "sacramento";
+  font-family: 'Sacramento', cursive;
   color : #DE8496;
   font-size: 4em;
   padding-top:0.25em;
@@ -7,12 +7,33 @@ h1{
 }
 
 h2{
-  font-family: "Open sans";
+  font-family: 'Sacramento', cursive;
+  font-family: 'Open Sans', sans-serif;
   color: #DE8496;
   font-size: 2em;
   line-height: 0px;
   padding-left: 1em;
 }
+
+h3{
+  font-family: "sacramento";
+  color : #DE8496;
+  font-size: 3em;
+  padding-top:0.25em;
+  padding-left:0.25em;
+}
+
+h4{
+  font-family: "Open sans";
+  color: #DE8496;
+  font-size: 1.5em;
+  line-height: 0px;
+  padding-left: 1.5em;
+  margin-bottom: 25px;
+}
+
+
+
 .loupe{
   width: 30px;
   display: block;
@@ -42,36 +63,15 @@ h2{
   margin-top: 40px;
   margin-right: 20px;
 }
-<<<<<<< HEAD
-/*
-.grid-container{
-  border: solid black 2px;
-}
 
-.large-6{
-  border: solid pink 2px;
+.lien{
+  line-height: 100px;
+  margin-left: 30px;
+  color: #de8496;
 }
-
-.grid-x.grid-padding-x{
-  border: solid red 1px;
-  width: 100%;
-}
-
-.large-12{
-  border: solid green 1px;
-}
-
-.large-9{
-  border: solid yellow 2px;
-}
-
-.large-3{
-  border: solid purple 2px;
-}
-*/
 
 img{
-  width: 300px;
+  width: 300px
 }
 
 
@@ -124,83 +124,8 @@ nav ul li a:hover{
 }
 .dropdown.menu.menu.verticale a{
   list-style-type: circle;
-
-  #flexiselDemo3 {
-display:none;
 }
-
-.nbs-flexisel-container {
-    position:relative;
-    max-width:100%;
-
-}
-.nbs-flexisel-ul {
-    position:relative;
-    width:99999px;
-    margin:0px;
-    padding:0px;
-    list-style-type:none;
-    text-align:center;
-    overflow: auto;
-}
-
-.nbs-flexisel-inner {
-    position: relative;
-    overflow: hidden;
-
-    width:100%;
-
-}
-
-.nbs-flexisel-item {
-    float:left;
-    margin:0px;
-    padding:0px;
-    cursor:pointer;
-    position:relative;
-    line-height:0px;
-
-}
-.nbs-flexisel-item img {
-    max-width: 100%;
-    cursor: pointer;
-    position: relative;
-    margin: 10px;
-}
-
-/*** Navigation ***/
-
-.nbs-flexisel-nav-left,
-.nbs-flexisel-nav-right {
-    padding:5px 10px;
-
-    position: absolute;
-    cursor: pointer;
-    z-index: 4;
-    top: 50%;
-    transform: translateY(-50%);
-    color: red;
-}
-
-.nbs-flexisel-nav-left {
-    left: 20px;
-}
-
-.nbs-flexisel-nav-left:before {
-    content: "<"}
-
-.nbs-flexisel-nav-left.disabled {
-    opacity: 0.4;
-}
-
-.nbs-flexisel-nav-right {
-    right: 20px;
-}
-
-.nbs-flexisel-nav-right:before {
-    content: ">"
-}
-
-.nbs-flexisel-nav.disabled {
-    opacity: 0.4;
+.reseaux{
+ width: 50px;
+ margin-top: 30px;
 }
