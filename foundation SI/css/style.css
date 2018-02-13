@@ -1,12 +1,48 @@
 h1{
   font-family: "sacramento";
   color : #DE8496;
+  font-size: 4em;
+  padding-top:0.25em;
+  padding-left:0.25em;
 }
 
 h2{
   font-family: "Open sans";
   color: #DE8496;
+  font-size: 2em;
+  line-height: 0px;
+  padding-left: 1em;
 }
+.loupe{
+  width: 30px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 70px;
+}
+.langue{
+  width: 70px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.panier{
+  width: 50px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.champ{
+  width: 200px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+<<<<<<< HEAD
 /*
 .grid-container{
   border: solid black 2px;
@@ -33,6 +69,14 @@ h2{
   border: solid purple 2px;
 }
 */
+=======
+
+img{
+  width: 300px
+}
+
+
+>>>>>>> dd46c7045f96146b7197f3690f18b1a00c50f6c7
 nav .menu {
   border-radius: 10px;
 }
@@ -82,4 +126,3 @@ nav ul li a:hover{
 }
 .dropdown.menu.menu.verticale a{
   list-style-type: circle;
-}
