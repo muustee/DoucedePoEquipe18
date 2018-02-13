@@ -1,37 +1,52 @@
 h1{
   font-family: "sacramento";
   color : #DE8496;
+  font-size: 4em;
+  padding-top:0.25em;
+  padding-left:0.25em;
 }
 
 h2{
   font-family: "Open sans";
   color: #DE8496;
+  font-size: 2em;
+  line-height: 0px;
+  padding-left: 1em;
+}
+.loupe{
+  width: 30px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 70px;
+}
+.langue{
+  width: 70px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.panier{
+  width: 50px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.champ{
+  width: 200px;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
 }
 
-.grid-container{
-  border: solid black 2px;
+img{
+  width: 300px
 }
 
-.large-6{
-  border: solid pink 2px;
-}
-
-.grid-x.grid-padding-x{
-  border: solid red 1px;
-  width: 100%;
-}
-
-.large-12{
-  border: solid green 1px;
-}
-
-.large-9{
-  border: solid yellow 2px;
-}
-
-.large-3{
-  border: solid purple 2px;
-}
 
 nav .menu {
   border-radius: 10px;
@@ -82,4 +97,3 @@ nav ul li a:hover{
 }
 .dropdown.menu.menu.verticale a{
   list-style-type: circle;
-}
