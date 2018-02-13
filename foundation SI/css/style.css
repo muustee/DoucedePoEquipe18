@@ -12,6 +12,7 @@
 
 .grid-x.grid-margin-x{
   border: solid red 1px;
+  width: 100%;
 }
 
 .large-12{

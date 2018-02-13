@@ -1,0 +1,31 @@
+$color:red;
+$orange: #f26c4f;
+$dark-grey: #373737;
+$light-grey: #474747;
+$backgroundbody: #ebebeb;
+$grey-text: #646464;
+$white: #FFFFFF;
+
+$stepsize1: 640px;
+$stepsize2: 940px;
+
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'),
+         url('../fonts/nexa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('../fonts/nexa_light-webfont.woff2') format('woff2'),
+         url('../fonts/nexa_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+$primary-font: "nexa","Arial",sans-serif;
+$primary-color: #f26c4f;
+$secondary-color: $grey-text;

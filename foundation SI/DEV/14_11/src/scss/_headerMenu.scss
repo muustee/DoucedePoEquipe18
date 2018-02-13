@@ -1,0 +1,36 @@
+.header__Menu{
+  background: $light-grey;
+  @media screen and (max-width: $stepsize1){
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.25s ease-in;
+  }
+    &.is-active{
+      transform: translateX(0);
+    }
+
+  ul{
+    list-style: none;
+    display:flex;
+    flex-flow: row;
+    margin: 0;
+    padding: 0;
+
+    @media screen and (max-width: $stepsize1){
+      flex-flow: column;
+      width: 200px;
+      text-align: center;
+  }
+  li{
+    a{
+      display: block;
+      padding: 20px;
+      font-size: 1.2rem;
+      color:$white;
+      text-decoration:none;
+    }
+  }
+}
+}
