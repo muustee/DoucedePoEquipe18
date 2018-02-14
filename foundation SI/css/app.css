@@ -101,3 +101,62 @@ nav ul li a:hover{
 
 
 ////////////////////////////
+
+.lien{
+  line-height: 100px;
+  margin-left: 30px;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.icon{
+  width: 60px;
+  display: flex;
+  float: left;
+  margin: 20px;
+  line-height: 20px;
+}
+
+.ic{
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ico{
+  font-size: 15px;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+email{
+  display: block;
+  float: left;
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 160px;
+}
+.inscrire{
+  display: block;
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+  height: 40px;
+}
+.footer-un{
+  border: solid 1px #de8496;
+}
+
+.footer-deux{
+  border: solid 1px #de8496;
+  border-top: none;
+}
+
+
+.reseaux{
+ width: 30px;
+ margin-top: 30px;
+ margin-left: 20px;
+}
