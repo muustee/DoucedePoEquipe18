@@ -139,7 +139,7 @@ display:none;
     position:relative;
     width:1000%;
     max-height :585px;
-    margin:0px ;
+    margin:0;
     padding:0;
     list-style-type:none;
     text-align:center;
@@ -151,22 +151,18 @@ display:none;
     overflow: hidden;
     float:left;
     width:100%;
-    z-index: 1;
-
 }
 
 .nbs-flexisel-item {
     float:left;
-    margin:0px;
-    padding:0px;
-    cursor:pointer;
+    margin:0;
+    padding:0;
     position:relative;
-    line-height:0px;
-
 }
+
 .nbs-flexisel-item img {
     width: 62%;
-    cursor: pointer;
+    cursor:wait;
     position: relative;
     margin:10px;
     align-items: center;
@@ -175,33 +171,23 @@ display:none;
 /*** Navigation ***/
 
 .previous,.next {
-    position: absolute;
-    cursor: pointer;
-    z-index: 4;
-    top: 50%;
-    transform: translateY(-50%);
-    color: red;
+  position: absolute;
+  cursor: pointer;
+  z-index: 4;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .previous {
-    left: 300px;
+  left: 25%;
+  border:20px solid transparent;
+  border-right:20px solid #f2f2f2;
 }
 
 .next {
-  right: 300px;
-}
-
-.previous{
-  width:0px;
+  right: 25%;
   border:20px solid transparent;
-  border-right:20px solid #de8496;
-}
-
-.next {
-  width:0;
-  border:20px solid transparent;
-  border-left:20px solid #de8496;
-
+  border-left:20px solid #f2f2f2;
 }
 
 .previous.disabled{
