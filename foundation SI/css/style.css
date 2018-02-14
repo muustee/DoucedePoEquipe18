@@ -1,34 +1,34 @@
 h1{
   font-family: 'Sacramento', cursive;
   color : #DE8496;
-  font-size: 4em;
+  font-size: 3em;
   padding-top:0.25em;
-  padding-left:0.25em;
+  padding-left:1.5em;
 }
 
 h2{
-  font-family: 'Sacramento', cursive;
+
   font-family: 'Open Sans', sans-serif;
   color: #DE8496;
-  font-size: 2em;
+  font-size: 1em;
   line-height: 0px;
-  padding-left: 1em;
+  padding-left: 2.5em;
 }
 
 h3{
   font-family: "sacramento";
   color : #DE8496;
-  font-size: 3em;
+  font-size: 2.5em;
   padding-top:0.25em;
-  padding-left:0.25em;
+  padding-left:50px;
 }
 
 h4{
   font-family: "Open sans";
   color: #DE8496;
-  font-size: 1.5em;
+  font-size: 0.75em;
   line-height: 0px;
-  padding-left: 1.5em;
+  padding-left: 2.75em;
   margin-bottom: 25px;
 }
 
@@ -64,15 +64,218 @@ h4{
   margin-right: 20px;
 }
 
+.liketext{
+  width: 400px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.exigence{
+  color: #DE8496;
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+
+
+input{
+  background-color: #de8496;
+  width: 110px;
+  color: white;
+}
+
+
+
+
+
 .lien{
   line-height: 100px;
   margin-left: 30px;
-  color: #de8496;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
 }
 
-img{
-  width: 300px;
+.like{
+  width: 100px;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 150px;
 }
+
+
+.relative{
+  position: relative;
+}
+
+
+.atelier{
+  border: 1px solid #de8496;
+  border-radius: 10px;
+  width: 500px;
+  margin-left: 35px;
+  margin-top: 60px;
+  position: absolute;
+
+}
+
+
+.atelierbis{
+  border: 1px solid #de8496;
+  border-radius: 10px;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.ateliertext{
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 35%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ateliertextbis{
+  position: absolute;
+  margin-left: 10%;
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.ateliertextun{
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 25%;
+  font-family: 'Open Sans', sans-serif;
+}
+.ateliertextdeux{
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 85%;
+  font-size: 40px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ateliertextbisdeux{
+  position: absolute;
+  margin-top: 39%;
+  margin-left: 85%;
+  font-size: 40px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.fond{
+  background-color: #F2F2F2;
+}
+
+
+.cadeaux{
+  width: 280px;
+  margin-left: 7px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icon{
+  width: 60px;
+  display: flex;
+  float: left;
+  margin: 20px;
+  line-height: 20px;
+}
+
+.ic{
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ico{
+  font-size: 15px;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.email{
+  display: block;
+  float: left;
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 160px;
+}
+.inscrire{
+  display: block;
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.fr{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.composants{
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+
+
+.mur{
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: 65px;
+}
+
+.insta{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+  padding: 15px;
+
+}
+
+.instatext{
+  font-size: 50px;
+  font-family: 'Sacramento', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-un{
+  border: solid 1px #de8496;
+}
+
+.footer-deux{
+  border: solid 1px #de8496;
+  border-top: none;
+}
+
 
 nav .menu {
   border-radius: 10px;
