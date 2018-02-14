@@ -384,13 +384,13 @@ display:none;
 .previous {
   left: 25%;
   border:20px solid transparent;
-  border-right:20px solid #f2f2f2;
+  border-right:20px solid black;
 }
 
 .next {
   right: 25%;
   border:20px solid transparent;
-  border-left:20px solid #f2f2f2;
+  border-left:20px solid black;
 }
 
 .previous.disabled{
