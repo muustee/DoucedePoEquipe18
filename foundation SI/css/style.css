@@ -127,7 +127,29 @@ nav ul li a:hover{
 .produit img{
   align-items: center;
 }
+.card-section{
+  max-width: 350px;
+}
+.card{
+  margin: 10px;
+  width: 300px;
+  border:none;
+}
+.grid-container:not(.full) > .grid-padding-x{
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 30px;
 
+
+}
+.first .grid-container:not(.full) > .grid-padding-x{
+  border-top: solid #de8496 1px;
+}
+.column{
+  border-right: solid #de8496 1px ;
+  border-left: solid #de8496 1px ;
+
+}
 ////////////////////////////
 .reseaux{
  width: 50px;
