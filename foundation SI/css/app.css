@@ -1,0 +1,77 @@
+//////BOUTIQUE CSS /////////
+nav .menu {
+  border-radius: 10px;
+}
+nav ul li a  {
+  color:#de8496;
+
+}
+nav ul{
+box-shadow: 0px -3px 58px -6px rgba(222,132,150,1);
+}
+nav ul li a:hover{
+  background: #de8496;
+  color: white;
+}
+.top-bar{
+  background-color: white;
+}
+.top-bar-left ul {
+  background-color: white;
+  justify-content: space-around;
+}
+.top-bar-right ul {
+  background-color: white;
+}
+.top-bar-right input {
+  margin-right: 1px;
+}
+.top-bar-left a{
+  color: black;
+  border: solid #de8496 1px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+  border-color: black transparent transparent;
+}
+.button {
+  background: #de8496;
+}
+.is-dropdown-submenu{
+  border: 0;
+}
+.top-bar-left ul{
+  margin-top: 30px;
+}
+.dropdown.menu.menu.verticale a{
+  list-style-type: circle;
+}
+.produit img{
+  align-items: center;
+}
+.card-section{
+  max-width: 350px;
+}
+.card{
+  margin: 10px;
+  width: 300px;
+  border:none;
+}
+.grid-container:not(.full) > .grid-padding-x{
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 30px;
+
+
+}
+.first .grid-container:not(.full) > .grid-padding-x{
+  border-top: solid #de8496 1px;
+}
+.column{
+  border-right: solid #de8496 1px ;
+  border-left: solid #de8496 1px ;
+}
+
+////////////////////////////
