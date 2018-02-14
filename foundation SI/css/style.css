@@ -277,6 +277,12 @@ input{
 }
 
 
+.reseaux{
+ width: 30px;
+ margin-top: 30px;
+ margin-left: 20px;
+}
+
 nav .menu {
   border-radius: 10px;
 }
@@ -324,10 +330,7 @@ nav ul li a:hover{
 .dropdown.menu.menu.verticale a{
   list-style-type: circle;
 }
-.reseaux{
- width: 50px;
- margin-top: 30px;
-}
+
 
 #flexiselDemo3 {
 display:none;
