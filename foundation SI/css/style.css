@@ -81,9 +81,7 @@ nav ul li a  {
   color:#de8496;
 
 }
-nav ul{
-box-shadow: 0px -3px 58px -6px rgba(222,132,150,1);
-}
+
 nav ul li a:hover{
   background: #de8496;
   color: white;
