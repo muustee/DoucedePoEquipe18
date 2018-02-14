@@ -237,3 +237,8 @@ display:none;
 .nbs-flexisel-nav.disabled {
     opacity: 0.4;
 }
+
+footer{
+  border: solid 1px #de8496;
+  margin-top: 20px;
+}
