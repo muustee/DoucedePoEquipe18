@@ -1,0 +1,219 @@
+.cell{
+  position: relative;
+}
+
+.fond{
+  width: 100%;
+  position: relative;
+}
+
+.produit{
+  background:#fcfafa;
+  display: block;
+  margin-top:20%;
+  z-index: 3;
+  position : relative;
+}
+
+
+.pastille{
+  border:solid 20px black;
+  border-radius: 50%;
+  width:5px;
+  height:5px;
+  margin-top: 30%;
+}
+
+.rouge{
+  border-color: red;
+}
+.bleu{
+  border-color: blue;
+}
+.vert{
+  border-color: #8FBC8F;
+}
+.gris{
+  border-color: grey;
+}
+
+.prix{
+  display: inline;
+  font-size: 1.5em;
+  padding-bottom: -10%;
+}
+
+#quantite{
+  width:35%;
+  height:auto;
+  display: inline;
+  font-size: 1.5em;
+
+}
+
+#taille{
+  width: 50%;
+  margin-left: 10%;
+}
+
+.lavage{
+  width: 40%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
+h3.h3{
+
+  font-family: "sacramento";
+  color : #DE8496;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+p.text{
+  padding-left: 5%;
+  color: grey;
+}
+
+.guide{
+  text-decoration: underline;
+  color: grey;
+}
+
+.add-panier{
+  width: 75%;
+  height: 25%;
+  font-size: 1.5em;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+.monpanier{
+  width: 75px;
+  display: block;
+  margin-left: 20%;
+  padding-bottom: 70%;
+}
+
+.other{
+  margin-top: -40%;
+}
+.other:first-child{
+  margin-left: 33%;
+}
+
+.card{
+  width: 100%;
+  border:none;
+  transition:1s;
+  overflow:hidden;
+}
+
+.text {
+  transition: 1s;
+}
+.card:hover .text {
+  transform: translateY(-100px);
+  background-color: white;
+}
+
+.drapeau{
+  width: 40px;
+  display: block;
+  float: right;
+  margin-top: 10%;
+}
+
+
+.recherche{
+  width: 200px;
+  display: block;
+  float: right;
+  margin-top: 10%;
+  border-radius: 10px;
+  margin-right: 15px;
+  border: solid 1px #DE8496;
+}
+
+
+
+
+.loupe{
+  width: 40px;
+  display: block;
+  float: right;
+  margin-top: 10%;
+  margin-right: 15px;
+
+}
+
+
+.panier{
+  width: 40px;
+  display: block;
+  float: right;
+  margin-top: 10%;
+  margin-left: 15px;
+}
+
+.drapeau{
+transform: scale(1);
+transition: .3s ease-in-out;
+}
+.drapeau:hover{
+transform: scale(1.3);
+}
+
+
+.nav, .nav  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav {
+/* on centre le menu dans la page */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav  li {
+/* on place les liens du menu horizontalement */
+    display: block;
+    margin-right: 3%;
+}
+.nav  ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+
+}
+.nav  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+	  color:#000;
+    font-size: 20px;
+    color: #de8496;
+
+}
+.nav ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+.nav li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+.nav ul li a:hover{
+  background-color: #de8496;
+  color: white
+}
+
+.nav li:hover a{
+  background-color: #de8496;
+  color: white;
+
+}
