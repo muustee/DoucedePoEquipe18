@@ -102,8 +102,29 @@ nav ul li a:hover{
   float: left;
   margin-top: 0px;
 }
-
-
+.client{
+width: 200px;
+height: 200px;
+float: left;
+margin: 30px;
+}
+.client2{
+width: 200px;
+height: 200px;
+float: right;
+margin: 30px;
+}
+.title{
+  text-align: center;
+}
+.article{
+  padding: 20px;
+}
+ .propos{
+width: 800px;
+margin: 0 auto;
+box-shadow: -5px -2px 64px 0px rgba(0,0,0,0.46);
+}
 ////////////////////////////
 
 
