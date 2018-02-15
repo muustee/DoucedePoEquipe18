@@ -3,7 +3,7 @@ h1{
   color : #DE8496;
   font-size: 3em;
   padding-top:0.25em;
-  padding-left:1.5em;
+  padding-left:0.5em;
 }
 
 h2{
@@ -12,7 +12,7 @@ h2{
   color: #DE8496;
   font-size: 1em;
   line-height: 0px;
-  padding-left: 2.5em;
+
 }
 
 h3{
@@ -32,37 +32,47 @@ h4{
   margin-bottom: 25px;
 }
 
-.drapeaux{
+.drapeau{
   width: 40px;
   display: block;
-  float: left;
-  margin-top: 40px;
-  margin-left:50px;
-  margin-right: 30px;
+  float: right;
+  margin-top: 10%;
 }
+
+.drapeau+ul{
+  width: 40px;
+  display: none;
+  float:right;
+  margin-top: 10%;
+  list-style-type: none;
+  position: relative;
+}
+
+.drapeau:hover ul{
+  display: block;
+  position: absolute;
+}
+
+
 
 .loupe{
   width: 40px;
   display: block;
-  float: left;
-  margin-top: 40px;
+  float: right;
+  margin-top: 10%;
+  margin-right: 20px;
+
 }
 
 
 .panier{
-  width: 50px;
+  width: 40px;
   display: block;
-  float: left;
-  margin-top: 40px;
-  margin-right: 20px;
+  float: right;
+  margin-top: 10%;
+  margin-left: 20px;
 }
-.champ{
-  width: 200px;
-  display: block;
-  float: left;
-  margin-top: 40px;
-  margin-right: 20px;
-}
+
 
 .liketext{
   width: 400px;
@@ -260,7 +270,7 @@ input{
 }
 
 .instatext{
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Sacramento', cursive;
   display: block;
   margin: 0 auto;
@@ -270,6 +280,10 @@ input{
   border: 1px solid #de8496;
   width: 500px;
   border-radius: 10px;
+}
+
+.instatext1{
+  width: 700px;
 }
 
 
@@ -291,10 +305,13 @@ input{
 
 nav .menu {
   border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 nav ul li a  {
   color:#de8496;
-
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav ul li a:hover{
@@ -350,7 +367,7 @@ display:none;
 .nbs-flexisel-ul {
     position:relative;
     width:1000%;
-    max-height :585px;
+    max-height :400px;
     margin:0;
     padding:0;
     list-style-type:none;
@@ -373,10 +390,11 @@ display:none;
 }
 
 .nbs-flexisel-item img {
-    width: 62%;
+    width: 100%;
+
     cursor:wait;
     position: relative;
-    margin:10px;
+    margin:0;
     align-items: center;
 }
 
@@ -391,15 +409,16 @@ display:none;
 }
 
 .previous {
-  left: 25%;
+  left: 0%;
   border:20px solid transparent;
-  border-right:20px solid black;
+  border-right:20px solid #de8496;
+
 }
 
 .next {
-  right: 25%;
+  right: 0%;
   border:20px solid transparent;
-  border-left:20px solid black;
+  border-left:20px solid #de8496;
 }
 
 .previous.disabled{
