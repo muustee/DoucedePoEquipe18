@@ -102,29 +102,8 @@ nav ul li a:hover{
   float: left;
   margin-top: 0px;
 }
-.client{
-width: 200px;
-height: 200px;
-float: left;
-margin: 30px;
-}
-.client2{
-width: 200px;
-height: 200px;
-float: right;
-margin: 30px;
-}
-.title{
-  text-align: center;
-}
-.article{
-  padding: 20px;
-}
- .propos{
-width: 800px;
-margin: 0 auto;
-box-shadow: -5px -2px 64px 0px rgba(0,0,0,0.46);
-}
+
+
 ////////////////////////////
 
 
@@ -143,7 +122,7 @@ h2{
   color: #DE8496;
   font-size: 1em;
   line-height: 0px;
-  padding-left: 2.5em;
+
 }
 
 
@@ -204,4 +183,57 @@ email{
  width: 30px;
  margin-top: 30px;
  margin-left: 20px;
+}
+
+.nav, .nav  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav {
+/* on centre le menu dans la page */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav  li {
+/* on place les liens du menu horizontalement */
+    display: block;
+    margin-right: 3%;
+}
+.nav  ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+
+}
+.nav  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+	  color:#000;
+    font-size: 20px;
+    color: #de8496;
+
+}
+.nav ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+.nav li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+.nav ul li a:hover{
+  background-color: #de8496;
+  color: white
+}
+
+.nav li:hover a{
+  background-color: #de8496;
+  color: white;
+
 }
