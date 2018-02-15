@@ -27,13 +27,10 @@
               </div>
               <div class="large-6 cell">
                 <div id="searchbar">
-                  <img class="panier" src="images/panier.png" alt="panier">
-                  <img class="drapeau" src="images/drapeaufr.png" alt="">
-                  <ul>
-                    <li><a href="#"><img src="images/drapeaugb.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/drapeaufr.png" alt=""></a></li>
-                  </ul>
-                  <img class="loupe" src="images/loup.png" alt="loupe">
+                  <a href="#"><img class="panier" src="images/panier.png" alt="panier"></a>
+                  <a href="#"><img class="drapeau" src="images/drapeaugb.png" alt=""></a>
+                  <input class="recherche" type="text" name="" value="" placeholder="Recherche...">
+                  <a href="#"><img class="loupe" src="images/loup.png" alt="loupe"></a>
                 </div>
               </div>
             </div>
@@ -43,7 +40,7 @@
               <ul class="menu align-center">
                 <li><a href="#">Accueil</a></li>
                 <li><a href="boutique.html">Boutique</a></li>
-                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="#">A propos</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
             </nav>
@@ -54,12 +51,14 @@
         <div class="grid-x grid-margin-y">
           <div class="large-12 cell">
             <div class="grid-x grid-margin-y">
-              <div class="large-12 cell">
+              <div class="large-12 cell relative">
                 <ul id="flexiselDemo3">
                  <li><img src="images/caroussel.jpg" /></li>
                  <li><img src="images/produits.jpg" /></li>
                  <li><img src="images/paul.jpg" /></li>
-               </ul>
+                </ul>
+                <p class="savoir">En savoir plus  <a href="#">+</a></p>
+
                 <div class="clearout"></div>
                 <script type="text/javascript">
                  $(window).load(function() {
@@ -83,21 +82,21 @@
           <div class="grid-x grid-margin-y">
             <div class="large-12 cell">
               <div class="grid-x">
-                <div class="large-12 cell">
-                  <p class="instatext">Pour vos p’tit bout de choux</p>
+                <div class="large-12 cell ">
+                  <p class="instatext">Pour vos p’tits bout de choux</p>
                 </div>
                 <div class="grid-x">
                   <div class="large-12 cell">
                     <div class="grid-x">
-                      <div class="large-4 cell">
+                      <div class="large-4 cell small-12">
                         <img class="like" src="images/like.svg" alt="like">
                         <p class="liketext">Tous nos produits sont <br>fabriqués avec amour par une<br>maman pour des mamans</p>
                       </div>
-                      <div class="large-4 cell">
+                      <div class="large-4 cell small-12">
                         <img class="like" src="images/fr.png" alt="fr">
-                        <p class="liketext">Tous les composants de nos<br>produits sont fabriquées en France.  </p>
+                        <p class="liketext">Tous les composants de nos<br>produits sont fabriqués en France.  </p>
                       </div>
-                      <div class="large-4 cell">
+                      <div class="large-4 cell small-12">
                         <img class="like" src="images/ball.png" alt="like">
                         <p class="liketext">Conception 100% Artisanale </p>
                     </div>
@@ -114,15 +113,15 @@
               <div class="large-12 cell">
                 <p class="instatext">Evenementiel</p>
               </div>
-              <div class="large-12 cell small-12">
+              <div class="large-12 cell">
                 <div class="grid-x grid-margin-y">
-                  <div class="large-6 cell relative">
+                  <div class="large-6 cell relative small-12">
                     <img class="atelier" src="images/atelier.jpg" alt="">
                     <p class="ateliertext">Le 14 et 15 Avril 2018</p>
                     <p class="ateliertextun">à l’occasion des journées portes ouvertes</p>
                     <a class="ateliertextdeux" href="#">+</a>
                   </div>
-                  <div class="large-6 cell ">
+                  <div class="large-6 cell small-12">
                     <p class="ateliertextbis">Opération toudoux perdu</p>
                     <a class="ateliertextbisdeux" href="#">+</a>
                     <img class="atelierbis" src="images/perdu.jpg" alt="">
@@ -145,19 +144,19 @@
                   </div>
                   <div class="large-3 cell">
                     <img class="cadeaux" src="images/doux.png" alt="">
-                    <p class="cadeaux">Toudoux lapinou au prix de 20.00€</p>
+                    <p class="cadeaux">Toudoux lapinou<br>au prix de 20.00€</p>
                   </div>
                   <div class="large-3 cell">
                     <img class="cadeaux" src="images/gigoteuse.png" alt="">
-                      <p class="cadeaux">Gigoteuse au prix de 45.00€</p>
+                      <p class="cadeaux">Gigoteuse au prix<br>de 45.00€</p>
                   </div>
                   <div class="large-3 cell">
                     <img class="cadeaux" src="images/bavoir1.png" alt="">
-                      <p class="cadeaux">Bavoir à partir de  13.00€</p>
+                      <p class="cadeaux">Bavoir à partir<br>de  13.00€</p>
                   </div>
                   <div class="large-3 cell">
                     <img class="cadeaux" src="images/nathan.png" alt="">
-                    <p class="cadeaux">Prénom en tissu  à partir de 8.50€</p>
+                    <p class="cadeaux">Prénom en tissu <br>à partir de 8.50€</p>
                   </div>
                 </div>
               </div>
@@ -171,7 +170,7 @@
             <div class="large-12 cell">
               <div class="grid-x">
                 <div class="large-12 cell">
-                  <img class="insta" src="images/insta.png" alt="insta">
+                  <img class="insta" src="images/insta.svg" alt="insta">
                   <p class="instatext instatext1">Rejoignez la communauté <font color="#de8496">#DoucedePo</p></font>
                 </div>
                 <div class="grid-x">
