@@ -1,0 +1,136 @@
+h5{
+  font-family: 'Sacramento', cursive;
+  color : #DE8496;
+  font-size: 3em;
+  padding-top:0.25em;
+  padding-left:0.5em;
+}
+
+h6{
+
+  font-family: 'Open Sans', sans-serif;
+  color: #DE8496;
+  font-size: 1em;
+  line-height: 0px;
+
+}
+
+
+
+
+
+
+.article{
+width: 81.2%;
+position: absolute;
+margin-top: 2%;
+}
+h3{
+  text-align: center;
+  color: black;
+}
+
+h4{
+  text-align: center;
+  color: #DE8496;
+  font-family: "sacramento";
+  font-size: 2.5em;
+  margin-top: 4%;
+  margin-bottom: 5%;
+
+}
+.text1{
+  margin-left: 15%;
+  margin-right: 10%;
+  font-family: 'Open Sans', sans-serif;
+}
+.text2{
+  margin-left: 5%;
+  margin-right: 10%;
+  font-family: 'Open Sans', sans-serif;
+}
+.client{
+  margin-left: 10%;
+}
+.fab{
+  margin-bottom: 10%;
+  width: 90%;
+  margin-right: 10%;
+  margin-top: 18%;
+
+}
+.white{
+  display: block;
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20%;
+}
+
+.footer-un{
+  border: solid 1px #de8496;
+
+}
+
+.footer-deux{
+  border: solid 1px #de8496;
+  border-top: none;
+}
+
+.fond{
+  height: 1000px;
+}
+
+.nav, .nav  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav {
+/* on centre le menu dans la page */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav  li {
+/* on place les liens du menu horizontalement */
+    display: block;
+    margin-right: 3%;
+}
+.nav  ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+
+}
+.nav  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+	  color:#000;
+    font-size: 20px;
+    color: #de8496;
+
+}
+.nav ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+.nav li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+.nav ul li a:hover{
+  background-color: #de8496;
+  color: white
+}
+
+.nav li:hover a{
+  background-color: #de8496;
+  color: white;
+
+}
